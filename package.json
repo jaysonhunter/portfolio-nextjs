@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev && sass --watch --update --style=expanded styles/main.scss:public/main.css",
-    "build": "npm run build:scss && next build",
+    "dev": "next dev",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "build:scss": "sass --no-source-map --style=compressed styles/main.scss:public/main.min.css",
