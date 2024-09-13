@@ -6,7 +6,7 @@ import PageHeader from "@/components/PageHeader/page-header";
 import OffPageCanvas from "@/components/OffPageCanvas/off-page-canvas";
 import Footer from "@/components/Footer/footer";
 import Script from 'next/script'
-import 'main.css'
+import '/public/main.css'
 
 export default function RootLayout({ children }) {
   const [isNavOpen, setIsNavOpen] = useState(false);

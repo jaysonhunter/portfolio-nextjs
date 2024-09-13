@@ -1,4 +1,4 @@
-import DATA from '/data/casestudyConcisemedia.json';
+import DATA from '/data/casestudyConciseMedia.json';
 import CaseStudy from '/components/CaseStudy/case-study';
 
 export default function ConciseMedia() {
