@@ -1,0 +1,30 @@
+{
+  "title" : "Raps Management Case Study",
+  "description": "Case Study: Discover how Jayson Hunter helped Raps Management improve their online brand and position with a new custom built website.",
+  "ogImage" : "./assets/img/case-studies/raps/raps-og.jpg",
+  "ogImageWidth": 1200,
+  "ogImageHeight": 630,
+  "twitterImage" : "./assets/img/case-studies/raps/raps-twitter-image.jpg",
+  "hero": {
+    "title": "RAPS Management",
+    "subText": "Celebrity brand website",
+    "bgImageURL" : "../assets/img/case-studies/raps/raps-case-study-hero-large.jpg",
+    "bgSmallImageURL" : "../assets/img/case-studies/raps/raps-case-study-hero-small.jpg",
+    "bgMediumImageURL" : "../assets/img/case-studies/raps/raps-case-study-hero-large.jpg",
+    "extraClasses": "",
+    "overlay": true
+  },
+  "caseStudyDetails": {
+    "clientName": "Raps Management",
+    "projectName": "Process Automation",
+    "projectDescription": "Based in London, Raps Management LTD is a leading UK based talent management company, representing a select list of clients in the sport, media and entertainment sectors. They wanted to improve their online brand and position with a new custom built website.",
+    "category": "Process Automation",
+    "duration": "",
+    "linkedServicePageURLs": [
+      {
+        "serviceName": "development",
+        "linkedURL": "service-development.html"
+      }
+    ]
+  }
+}

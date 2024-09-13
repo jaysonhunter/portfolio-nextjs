@@ -1,0 +1,52 @@
+.u-row-space-small {
+  @include small-padding-top();
+  @include small-padding-bottom();
+}
+
+.u-row-space-medium {
+  @include medium-padding-top();
+  @include medium-padding-bottom();
+}
+
+.u-row-space-large {
+  @include large-padding-top();
+  @include large-padding-bottom();
+}
+
+.u-row-space-xlarge {
+  @include xlarge-padding-top();
+  @include xlarge-padding-bottom();
+}
+
+
+.u-row-space-small-top {
+  @include small-padding-top();
+}
+
+.u-row-space-small-bottom {
+  @include small-padding-bottom();
+}
+
+.u-row-space-medium-top {
+  @include medium-padding-top();
+}
+
+.u-row-space-medium-bottom {
+  @include medium-padding-bottom();
+}
+
+.u-row-space-large-top {
+  @include large-padding-top();
+}
+
+.u-row-space-large-bottom {
+  @include large-padding-bottom();
+}
+
+.u-row-space-xlarge-top {
+  @include xlarge-padding-top();
+}
+
+.u-row-space-xlarge-bottom {
+  @include xlarge-padding-bottom()
+}

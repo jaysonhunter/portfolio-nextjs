@@ -1,0 +1,39 @@
+.u-h1 {
+  @include h1-size();
+}
+
+.u-h2 {
+  @include h2-size();
+}
+
+.u-h3 {
+  @include h3-size();
+}
+
+.u-font-small {
+  @include font-small();
+}
+
+.u-font-large {
+  @include font-large();
+}
+
+.u-uppercase {
+  @include uppercase();
+
+  &--small {
+    @include font-small();
+  }
+
+  &--large {
+    @include font-large();
+  }
+}
+
+.u-quote {
+  @include quote();
+}
+
+.u-quote-large {
+  @include quote-large();
+}

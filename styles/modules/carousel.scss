@@ -1,0 +1,100 @@
+.carousel {
+  position: relative;
+  @include clearfix();
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-viewport {
+  overflow: hidden;
+}
+
+.carousel-wrapper {
+  position: relative;
+}
+
+.carousel-nav {
+  @include center-vertical();
+  position: absolute;
+  display: none;
+  width: 50px;
+  height: 50px;
+  background-color: $color-link;
+  z-index: 10;
+  background-size: 32px 22px;
+
+  @include for-desktop-up {
+    display: inline-block;
+  }
+
+  &.carousel-nav__prev,
+  &.carousel-nav__next {
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+
+  &.carousel-nav__prev {
+    left: 20px;
+    background-image: url("/assets/img/icons/icon-chevron-left-32-white.svg");
+  }
+
+  &.carousel-nav__next {
+    right: 20px;
+    background-image: url("/assets/img/icons/icon-chevron-right-32-white.svg");
+  }
+
+}
+
+.carousel-drag {
+  background-color: $color-link;
+  color: $color-white;
+  border-radius: 45px;
+  font-size: 1em; //16px;
+  font-weight: $font-weight-bold;
+  height: 90px;
+  line-height: 5.625em; //90px;
+  left: 50%;
+  margin-left: -45px;
+  margin-top: -45px;
+  pointer-events: none;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 90px;
+  font-stretch: normal;
+  font-style: normal;
+  transition: initial;
+
+  @include for-desktop-up {
+    display: none;
+  }
+
+}
+
+.slides {
+    position: absolute;
+    z-index: 1;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -o-text-size-adjust: none;
+    text-size-adjust: none;
+    height: 100%;
+    transition: initial; // Fixes the clash with iScroll
+  }
+
+  .slide {
+    float: left;
+  }

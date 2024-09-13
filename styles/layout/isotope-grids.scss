@@ -1,0 +1,84 @@
+.isotope-grid {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    @include clearfix();
+
+    .isotope-item,
+    .grid-sizer {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    // Max 2 items on row
+    &.grid-2-up {
+
+        .gutter-sizer {
+            width: 0;
+            @media (min-width: $screen-md) {
+                width: 30px;
+            }
+        }
+
+        .isotope-item,
+        .grid-sizer {
+            @media (min-width: $screen-md) {
+                width: calc(50% - 30px);
+
+            }
+        }
+    }
+
+
+
+    // Max 3 items on row
+    &.grid-3-up {
+        .gutter-sizer {
+            width: 0;
+            @media (min-width: $screen-md) {
+                width: 30px;
+            }
+        }
+
+        .isotope-item,
+        .grid-sizer {
+            @media (min-width: $screen-sm) {
+                width: 100%;
+            }
+
+            @media (min-width: $screen-md) {
+                width: calc(50% - 30px);
+            }
+
+            @media (min-width: $screen-lg) {
+                width: calc(33.333% - 30px);
+            }
+
+        }
+    }
+
+    // Max 4 items on row
+    &.grid-4-up {
+        .gutter-sizer {
+            width: 0;
+            @media (min-width: $screen-md) {
+                width: 30px;
+            }
+        }
+
+        .isotope-item,
+        .grid-sizer {
+            margin-bottom: 10px;
+
+            @media (min-width: $screen-sm) {
+                width: 50%;
+            }
+
+            @media (min-width: $screen-md) {
+                width: calc(25% - 30px);
+            }
+        }
+    }
+
+}
+

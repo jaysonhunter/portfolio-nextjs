@@ -1,0 +1,17 @@
+{
+  "title" : "Case Studies",
+  "authorName": "Jayson Hunter - Digital Consultant",
+  "description": "I've been a developer for years. Here you'll find a selection of some of my most recent projects that showcase the type of clients I work closely with.",
+  "ogImage" : "./assets/img/case-studies/overview-og.jpg",
+  "ogImageWidth": 1200,
+  "ogImageHeight": 630,
+  "twitterImage" : "./assets/img/case-studies/overview-twitter-image.jpg",
+  "hero": {
+    "title" : "My Work",
+    "subText": "A Few Case Studies",
+    "bgImageURL" : "../assets/img/heros/case-study-overview-hero-large.jpg",
+    "bgSmallImageURL" : "../assets/img/heros/case-study-overview-hero-small.jpg",
+    "extraClasses": "",
+    "overlay": true
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "title" : "Deutsche Bank Case Study",
+  "description": "Case Study: Discover how Jayson Hunter provided a number of IT solutions to various internal businesses within Deutsche Bank London.",
+  "ogImage" : "./assets/img/case-studies/deutschebank/deutschebank-og.jpg",
+  "ogImageWidth": 1200,
+  "ogImageHeight": 630,
+  "twitterImage" : "./assets/img/case-studies/deutschebank/deutschebank-twitter-image.jpg",
+  "hero": {
+    "title": "DEUTSCHE BANK",
+    "subText": "Outsource systems migration",
+    "bgImageURL" : "../assets/img/case-studies/deutsche-bank/deutsche-case-study-hero-large.jpg",
+    "bgSmallImageURL" : "../assets/img/case-studies/deutsche-bank/deutsche-case-study-hero-small.jpg",
+    "extraClasses": "",
+    "overlay": true
+  },
+  "caseStudyDetails": {
+    "clientName": "Deutsche Bank",
+    "projectName": "Systems Migration",
+    "projectDescription": "Deutsche Bank, a German global banking and financial services company, with offices in London needed a consultant to provide a number of IT solutions to various internal businesses.",
+    "category": "",
+    "duration": "",
+    "linkedServicePageURLs": [
+      {
+        "serviceName": "Consultancy",
+        "linkedURL": "service-consultancy.html"
+      }
+    ]
+  }
+}

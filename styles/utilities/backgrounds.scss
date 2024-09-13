@@ -1,0 +1,8 @@
+// BG Cover rules.
+// Add this class to every container that has a background image
+
+.u-bg-cover {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

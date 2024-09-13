@@ -1,0 +1,37 @@
+{
+  "name": "portfolio-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev && sass --watch --update --style=expanded styles/main.scss:public/main.css",
+    "build": "npm run build:scss && next build",
+    "start": "next start",
+    "lint": "next lint",
+    "build:scss": "sass --no-source-map --style=compressed styles/main.scss:public/main.min.css",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "next": "14.2.8",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^1.9.0",
+    "@storybook/addon-essentials": "^8.3.0",
+    "@storybook/addon-interactions": "^8.3.0",
+    "@storybook/addon-links": "^8.3.0",
+    "@storybook/addon-onboarding": "^8.3.0",
+    "@storybook/blocks": "^8.3.0",
+    "@storybook/nextjs": "^8.3.0",
+    "@storybook/react": "^8.3.0",
+    "@storybook/test": "^8.3.0",
+    "bootstrap": "^5.3.3",
+    "../../node_modules/bootstrap-sass": "^3.4.3",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.8",
+    "eslint-plugin-storybook": "^0.8.0",
+    "sass": "^1.78.0",
+    "storybook": "^8.3.0"
+  }
+}

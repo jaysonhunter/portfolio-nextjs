@@ -1,0 +1,21 @@
+{
+  "title" : "Contact Jayson Hunter",
+  "siteURL": "www.jaysonhunter.com",
+    "authorName": "Jayson Hunter - Digital Consultant",
+    "description": "I live in London which is perfect for global business. Contact me to discuss your next web project.",
+    "page_image" : "",
+  "showCTABlock": false,
+  "hero": {
+    "title": "Contact Me",
+    "subText": "Get in touch",
+    "bgColorClass": "",
+    "textColorClass": "u-color-white",
+    "bgImageURL" : "../assets/img/heros/contact-hero-large.jpg",
+    "bgSmallImageURL" : "../assets/img/heros/contact-hero-small.jpg",
+    "bgSize": "",
+    "bgPosition": "center"
+  },
+  "contactEmailAddresses": {
+    "generalEnquiries": "hello@jaysonhunter.com"
+  }
+}

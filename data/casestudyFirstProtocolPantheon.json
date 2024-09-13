@@ -1,0 +1,31 @@
+{
+  "title" : "First Protocol Pantheon Case Study",
+  "siteURL": "www.jaysonhunter.com",
+  "authorName": "Jayson Hunter - Digital Consultant",
+  "description": "First Protocol Pantheon Case Study description",
+  "ogImage" : "./assets/img/case-studies/first-protocol/first-protocol-pantheon-og-image.jpg",
+  "ogImageWidth": 667,
+  "ogImageHeight": 667,
+  "twitterImage" : "./assets/img/case-studies/first-protocol/first-protocol-pantheon-twitter-image.jpg",
+  "hero": {
+    "title": "First Protocol Pantheon",
+    "subText": "iPad app for events",
+    "bgImageURL" : "../assets/img/case-studies/first-protocol/first-protocol-pantheon-case-study-hero-large.jpg",
+    "bgSmallImageURL" : "../assets/img/case-studies/first-protocol/first-protocol-pantheon-case-study-hero-small.jpg",
+    "bgMediumImageURL" : "../assets/img/case-studies/first-protocol/first-protocol-pantheon-case-study-hero-large.jpg",
+    "extraClasses": ""
+  },
+  "caseStudyDetails": {
+    "clientName": "First Protocol",
+    "projectName": "Process Automation",
+    "projectDescription": "First Protocol is Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe minima, alias vero deleniti perferendis quisquam omnis voluptatum reprehenderit natus illo, unde pariatur id labore error assumenda veniam atque fuga repellat.",
+    "category": "Process Automation",
+    "duration": "",
+    "linkedServicePageURLs": [
+      {
+        "serviceName": "development",
+        "linkedURL": "service-development.html"
+      }
+    ]
+  }
+}

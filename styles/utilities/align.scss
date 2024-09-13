@@ -1,0 +1,31 @@
+// Vertical Align Helper classes
+
+/*
+
+CSS3 Vertical Align
+http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/
+
+*/
+
+.u-va {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.u-va-flex {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.u-center-block {
+  @include center-block();
+}
+
+.u-text-center {
+  text-align: center;
+}

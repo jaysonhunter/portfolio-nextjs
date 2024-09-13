@@ -1,0 +1,116 @@
+form {
+  padding : 0;
+
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  input[type="password"],
+  textarea {
+    border: 1px solid $color-grey-70;
+    background-color: $color-grey-91;
+    border-radius : 0;
+    //height        : 60px;
+    width         : 100%;
+    padding: 16px;
+
+    &:focus {
+      border-color : $color-link;
+    }
+  }
+
+  textarea {
+    height : auto;
+    padding: 16px;
+  }
+
+  // Remove the X in search or text fields on IE
+
+  ::-ms-clear {
+    display : none;
+    width   : 0;
+    height  : 0;
+  }
+
+  ::-ms-reveal {
+    display : none;
+    width   : 0;
+    height  : 0;
+  }
+
+  // Remove up/down arrows for 'number' type fields
+  input[type=number] {
+    -moz-appearance : textfield;
+  }
+
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance : none;
+    margin             : 0;
+  }
+
+
+  label {
+    display   : block;
+    padding   : 0 0 5px;;
+    margin-bottom: 0;
+  }
+
+  input, textarea{
+    outline    : none;
+    box-shadow : none;
+    resize     : none;
+    background-color    : $color-grey-91;
+
+    &:focus {
+      outline    : none;
+      box-shadow : none !important;
+      border-color: $color-link;
+    }
+  }
+
+  select {
+    background-position : right 4px center;
+    background-repeat   : no-repeat;
+    background-size     : 16px 16px;
+    background-image    : url("/assets/img/icons/icon-chevron-down-16-black.svg");
+
+    // remove default arrow from Select in IE11
+    &::-ms-expand {
+      display : none;
+    }
+  }
+
+  .select {
+    display             : block;
+    //height        : 60px;
+    width               : 100%;
+    padding: 16px;
+    border: 1px solid $color-grey-91;
+    background-color    : $color-grey-91;
+    outline    : none;
+    box-shadow : none;
+    resize     : none;
+
+    -webkit-appearance  : none;
+    background-image    : url("/assets/img/icons/icon-chevron-down-16-black.svg");
+    background-repeat   : no-repeat;
+    background-position : right 16px center;
+    margin-bottom       : 4px;
+
+    .ie9 &, .ie10 & {
+      padding-right : 0;
+      width         : 100%;
+      background    : $color-grey-91;
+    }
+  }
+
+
+  .row {
+    margin-bottom: 8px;
+  }
+
+  .form-group {
+    margin-bottom: 8px;
+  }
+
+}

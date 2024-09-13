@@ -1,0 +1,65 @@
+/***
+
+==============================================
+MASTER PARTIAL SCSS IMPORT FILE
+==============================================
+
+***/
+
+// Variables
+// ======================
+@import "variables/_partial-import";
+
+
+
+// Mixins
+// ======================
+@import "mixins/_partial-import";
+
+
+
+// Structure
+// ======================
+@import "custom-bootstrap/bootstrap";
+
+
+
+// Base styles
+// ======================
+@import "base/_partial-import";
+
+
+
+// Utility helpers
+// ======================
+@import "utilities/_partial-import";
+
+
+
+// Layout
+// ======================
+@import "layout/_partial-import";
+
+
+
+// Elements
+// ======================
+@import "elements/_partial-import";
+
+
+
+// Components
+// ======================
+@import "components/_partial-import";
+
+
+
+// Modules
+// ======================
+@import "modules/_partial-import";
+
+
+
+// Vendors
+// ======================
+@import "vendor/_partial-import";

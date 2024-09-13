@@ -1,0 +1,31 @@
+{
+  "title" : "Vizient Case Study",
+  "description": "Case Study: Discover how Jayson Hunter helped Vizient create a new, mobile-first and responsive website.",
+  "ogImage" : "./assets/img/case-studies/vizient/vizient-og.jpg",
+  "ogImageWidth": 1200,
+  "ogImageHeight": 630,
+  "twitterImage" : "./assets/img/case-studies/vizient/vizient-twitter-image.jpg",
+  "hero": {
+    "title": "Vizient",
+    "subText": "Bespoke medical website",
+    "bgImageURL" : "../assets/img/case-studies/vizient/vizient-case-study-hero-large.jpg",
+    "bgSmallImageURL" : "../assets/img/case-studies/vizient/vizient-case-study-hero-small.jpg",
+    "bgMediumImageURL" : "../assets/img/case-studies/vizient/vizient-case-study-hero-large.jpg",
+    "bgPosition": "right center",
+    "extraClasses": "",
+    "overlay": true
+  },
+  "caseStudyDetails": {
+    "clientName": "Vizient",
+    "projectName": "New medical website",
+    "projectDescription": "Vizient is the largest member-owned health care services company in the United States., and based in Texas. It was formed through the merger of VHA, a national network of not-for-profit hospitals, and UHC, an alliance of academic medical centers. A new website was requried for Vizient.",
+    "category": "Wearable Tech",
+    "duration": "6 Months",
+    "linkedServicePageURLs": [
+      {
+        "serviceName": "Experiments",
+        "linkedURL": "service-experiments.html"
+      }
+    ]
+  }
+}

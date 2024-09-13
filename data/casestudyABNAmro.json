@@ -1,0 +1,29 @@
+{
+  "title" : "ABN Amro Case Study",
+  "description": "Case Study: Discover how Jayson Hunter helped ABN Amro bank comply with FSA regulations, by developing new systems to automate a number of manual processes.",
+  "ogImage" : "assets/img/case-studies/abnamro/abn-og.jpg",
+  "ogImageWidth": 1200,
+  "ogImageHeight": 630,
+  "twitterImage" : "./assets/img/case-studies/abnamro/abnamro-twitter-image.jpg",
+  "hero": {
+    "title": "ABN Amro",
+    "subText": "Regulatory Process Automation",
+    "bgImageURL" : "../assets/img/case-studies/abn-amro/abn-case-study-hero-large.jpg",
+    "bgSmallImageURL" : "../assets/img/case-studies/abn-amro/abn-case-study-hero-small.jpg",
+    "extraClasses": "",
+    "overlay": true
+  },
+  "caseStudyDetails": {
+    "clientName": "ABN Amro",
+    "projectName": "Regulatory Process Automation",
+    "projectDescription": "ABN AMRO is a Dutch bank that offers a full range of products and services to retail, private, corporate clients. ABN Amro needed to implement new systems to be compliant with FSA regulations.",
+    "category": "Process Automation",
+    "duration": "",
+    "linkedServicePageURLs": [
+      {
+        "serviceName": "development",
+        "linkedURL": "service-development.html"
+      }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+$slick-card-width-mobile: 352px;
+$slick-card-width-desktop: 252px;
+
+$slick-card-height-mobile: 352px;
+$slick-card-height-desktop: 252px;
+
+
+.slick-carousel-container {
+
+  .slick-prev,
+  .slick-next {
+    display: none;
+    width: 12px;
+    height: 22px;
+    background-size: 12px 22px;
+    padding: 20px;
+
+    @media (min-width: $screen-md) {
+      display: block;
+    }
+
+     &:before {
+      content: ''; // Remove default slick arrow content
+    }
+  }
+
+  .slick-prev {
+    background: url("/assets/img/icons/icon-chevron-black-left.svg") no-repeat center;
+    left: -20px;
+  }
+
+  .slick-next {
+    background: url("/assets/img/icons/icon-chevron-black-right.svg") no-repeat center;
+    right: -20px;
+  }
+
+  .slick-disabled {
+      opacity: .25;
+    }
+
+}
+
+.slick-carousel-wrapper {
+  .slide {
+    height: $slick-card-height-mobile;
+    width: $slick-card-width-mobile;
+  }
+
+  .card {
+    margin: 0 auto;
+
+    @media (min-width: $screen-md) {
+      max-width: $slick-card-width-desktop;
+    }
+  }
+
+}

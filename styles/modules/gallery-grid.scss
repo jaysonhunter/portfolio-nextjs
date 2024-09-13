@@ -1,0 +1,53 @@
+.gallery-grid {
+  @include clearfix();
+  list-style-type: none;
+
+  .gallery-grid-item {
+    width: 100%;
+  }
+
+  @media (min-width: $screen-sm) {
+    padding: 0 20px;
+
+    .gallery-grid-item {
+      margin-bottom: 40px;
+    }
+
+    .gallery-grid-item:nth-child(odd) {
+      float: left;
+      margin-left: -20px;
+    }
+
+    .gallery-grid-item:nth-child(even) {
+      float: right;
+      margin-right: -20px;
+    }
+
+    .gallery-grid-item {
+      &.width-1 {
+        width: 32.15%;
+      }
+    }
+
+    .gallery-grid-item {
+      &.width-2 {
+        width: 67.85%;
+      }
+    }
+
+    .gallery-grid-item {
+      &.width-3 {
+        width: 41.05%;
+      }
+    }
+
+
+    .gallery-grid-item {
+      &.width-4 {
+        width: 58.95%;
+      }
+    }
+
+  }
+
+}

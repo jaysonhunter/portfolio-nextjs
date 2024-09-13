@@ -1,0 +1,149 @@
+// Bootstrap button classes
+
+button {
+  padding            : 0;
+  border             : 0;
+  background-color   : transparent;
+  -webkit-appearance : none;
+  outline            : none;
+  text-transform: uppercase;
+}
+
+.btn {
+  position      : relative;
+  padding       : 20px 0;
+  border        : 0;
+  appearance    : none;
+  text-align    : center;
+  border-radius : 0;
+  outline       : none !important;
+  font-weight: 500;
+  font-size: 0.8125em; //13px;
+  letter-spacing: 0.10em;
+  width: 100%;
+
+  @media (min-width: $screen-md) {
+    width: auto;
+    font-size: 1em; //16px;
+    padding: 30px 36px;
+  }
+
+}
+
+// Primary button
+.btn-primary {
+  display          : inline-block;
+  color            : $color-white;
+  background-color : $color_button_primary_background;
+
+  &:link,
+  &:visited {
+    color : $color-white;
+  }
+
+  &:hover,
+  &:focus {
+    box-shadow       : 0 0px 15px rgba(0, 0, 0, 0.15);
+    background-color : darken($color_button_primary_background, 4%);
+    text-decoration  : none;
+    color            : white;
+  }
+
+  &:active {
+    background-color : darken($color_button_primary_background, 8%);
+    text-decoration  : none;
+    color            : white;
+    border           : 0;
+  }
+
+  &:focus {
+    background-color : darken($color_button_primary_background, 8%);
+    text-decoration  : none;
+    color            : white;
+    border           : 0;
+  }
+
+}
+
+// Secondary button.
+.btn-secondary {
+  background-color : $color_button_secondary_background;
+  color            : $color-link;
+  border: 1px solid $color-link;
+
+  &:link,
+  &:visited,
+  &:hover {
+    color : $color_link;
+  }
+
+  &:hover,
+  &:focus {
+    background-color : darken($color_button_secondary_background, 4%);
+    text-decoration  : none;
+  }
+
+  &:active {
+    background-color : darken($color_button_secondary_background, 8%);
+    text-decoration  : none;
+    border           : 0;
+  }
+
+  &:focus {
+    background-color : darken($color_button_secondary_background, 8%);
+    text-decoration  : none;
+    border           : 0;
+  }
+}
+
+
+// Simple button.
+.btn-simple {
+  color            : $color-link;
+
+  &:link,
+  &:visited,
+  &:hover {
+    color : $color-link;
+  }
+
+  &:hover {
+    text-decoration  : none;
+  }
+
+  &:active {
+    text-decoration  : none;
+  }
+
+  &:focus {
+    text-decoration  : none;
+  }
+}
+
+// Ghost button.
+.btn-ghost {
+  color: $color-white;
+  border: 2px solid $color-white;
+  background-color: transparent;
+
+  &:link,
+  &:visited,
+  &:hover {
+    color : $color-white;
+    border-color: $color-white;
+  }
+
+  &:hover {
+    text-decoration  : none;
+    color: $color-white;
+    background-color : transparent;
+  }
+
+  &:active {
+    text-decoration  : none;
+  }
+
+  &:focus {
+    text-decoration  : none;
+  }
+}

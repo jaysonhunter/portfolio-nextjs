@@ -1,0 +1,38 @@
+.page-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: $header-mobile-height;
+    margin: 0;
+    padding: 0 $container-padding-mobile;
+    background-color: #fff;
+    border-bottom: 1px solid $color-black-16;
+    //transition: all .6s ease;
+    z-index: 1001;
+
+    .logo {
+        position  : relative;
+        @include center-vertical();
+    }
+
+    &.is-hidden {
+        transform: translate3d(0px, -$header-mobile-height, 0px);
+    }
+
+    @media (min-width: $screen-md) {
+        padding: 0 $container-padding-desktop;
+        height: $header-desktop-height;
+
+        &.is-hidden {
+            transform: translate3d(0px, -$header-desktop-height, 0px);
+        }
+    }
+
+    .nav-toggle {
+        right: $container-padding-mobile;
+
+        @media (min-width: $screen-md) {
+            right: $container-padding-desktop;
+        }
+    }
+}

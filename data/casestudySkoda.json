@@ -1,0 +1,28 @@
+{
+  "title" : "Skoda Case Study",
+  "description": "Case Study: Discover how Jayson Hunter helped Skoda update their online brand to be inline with the rest of the industry.",
+  "ogImage" : "./assets/img/case-studies/skoda/skoda-og.jpg",
+  "ogImageWidth": 1200,
+  "ogImageHeight": 630,
+  "twitterImage" : "./assets/img/case-studies/skoda/skoda-twitter-image.jpg",
+  "hero": {
+    "title": "SKODA",
+    "subText": "Goal-oriented mobile website",
+    "bgImageURL" : "../assets/img/case-studies/skoda/skoda-case-study-hero-large.jpg",
+    "bgSmallImageURL" : "../assets/img/case-studies/skoda/skoda-case-study-hero-small.jpg",
+    "bgMediumImageURL" : "../assets/img/case-studies/skoda/skoda-case-study-hero-large.jpg",
+    "overlay": true
+  },
+  "caseStudyDetails": {
+    "clientName": "Skoda",
+    "projectName": "Mobile website",
+    "projectDescription": "Škoda, the Czech automobile manufacturer wanted to update their online brand to be inline with the rest of the industry. The first step was to implement a modern, fresh looking mobile website to reflect their core values and allow more people to book test drives.",
+    "category": "",
+    "linkedServicePageURLs": [
+      {
+        "serviceName": "Experiments",
+        "linkedURL": "service-experiments.html"
+      }
+    ]
+  }
+}

@@ -1,0 +1,335 @@
+{
+  "baseURL": "http://www.jaysonhunter.com",
+  "siteURL": "www.jaysonhunter.com",
+  "authorName": "Jayson Hunter - Digital Consultant",
+  "menus": {
+    "offCanvas": {
+        "menuTitle": "Services",
+        "menuItems": [
+            {   "isActive": true,
+                "menuItemText": "Home",
+                "menuLinkURL": "/"
+            },
+            {   "isActive": true,
+                "menuItemText": "About Me",
+                "menuLinkURL": "/about"
+            },
+            {   "isActive": false,
+                "menuItemText": "What I Can Offer You",
+                "menuLinkURL": "/what-i-can-offer"
+            },
+            {   "isActive": true,
+                "menuItemText": "View My Work",
+                "menuLinkURL": "/case-studies"
+            },
+            {   "isActive": true,
+                "menuItemText": "Get In Touch",
+                "menuLinkURL": "/contact"
+            }
+        ]
+    },
+    "footer": {
+      "services": {
+          "menuItems": [
+            {   "isActive": true,
+                "menuItemText": "About Me",
+                "menuLinkURL": "about"
+            },
+            {   "isActive": false,
+                "menuItemText": "What I Can Offer You",
+                "menuLinkURL": "what-i-can-offer"
+            },
+            {   "isActive": true,
+                "menuItemText": "View My Work",
+                "menuLinkURL": "case-study-overview"
+            },
+            {   "isActive": true,
+                "menuItemText": "Get In Touch",
+                "menuLinkURL": "contact"
+            }
+          ]
+      }
+    }
+  },
+  "allCaseStudies": {
+    "gridTypeClass": "grid-2-up",
+    "data-filter-keys": [
+        {
+            "filterName": "Websites",
+            "filterKey": "websites"
+        },
+        {
+            "filterName": "iPad apps",
+            "filterKey": "ipad-apps"
+        },
+        {
+            "filterName": "Compliance",
+            "filterKey": "compliance"
+        },
+        {
+            "filterName": "System Migration",
+            "filterKey": "system-migration"
+        }
+
+    ],
+    "dataContent": [
+      {
+        "id": "ahold",
+        "isActive": true,
+        "cardClasses": "card--case-study",
+        "cardImgURL": "/assets/img/case-studies/ahold-delhaize/ahold-card-01.jpg",
+        "cardImgAlt": "",
+        "cardTitle": "AHOLD DELHAIZE",
+        "cardSubTitle": "Whitelabel e-commerce platform",
+        "filterKey": "websites",
+        "cardURL": "/case-studies/ahold-delhaize"
+      },
+      {
+        "id": "skoda",
+        "isActive": true,
+        "cardClasses": "card--case-study",
+        "cardImgURL": "/assets/img/case-studies/skoda/skoda-card.jpg",
+        "cardImgAlt": "",
+        "cardTitle": "SKODA",
+        "cardSubTitle": "Goal-oriented mobile website",
+        "filterKey": "websites",
+        "cardURL": "/case-studies/skoda"
+      },
+      {
+        "id": "chillisauce",
+        "isActive": true,
+        "cardClasses": "card--case-study",
+        "cardImgURL": "/assets/img/case-studies/chillisauce/chillisauce-card-01.jpg",
+        "cardImgAlt": "",
+        "cardTitle": "CHILLISAUCE",
+        "cardSubTitle": "Bespoke event booking platform",
+        "filterKey": "websites",
+        "cardURL": "/case-studies/chillisauce"
+      },
+      {
+        "id": "vizient",
+        "isActive": true,
+        "cardClasses": "card--case-study",
+        "cardImgURL": "/assets/img/case-studies/vizient/vizient-card.jpg",
+        "cardImgAlt": "",
+        "cardTitle": "VIZIENT",
+        "cardSubTitle": "Bespoke medical services website",
+        "filterKey": "websites",
+        "cardURL": "/case-studies/vizient"
+      },
+      {
+        "id": "vivid-lime",
+        "isActive": true,
+        "cardClasses": "card--case-study",
+        "cardImgURL": "/assets/img/case-studies/vivid-lime/vivid-lime-card.jpg",
+        "cardImgAlt": "",
+        "cardTitle": "Vivid Lime",
+        "cardSubTitle": "Existing website enhancements",
+        "filterKey": "websites",
+        "cardURL": "/case-studies/vivid-lime"
+      },
+      {
+        "id": "maggiehunt",
+        "isActive": false,
+        "cardClasses": "card--case-study",
+        "cardImgURL": "/assets/img/case-studies/maggie-hunt/maggie-hunt-card.jpg",
+        "cardImgAlt": "",
+        "cardTitle": "MAGGIE HUNT",
+        "cardSubTitle": "Updated personal brand website",
+        "filterKey": "websites",
+        "cardURL": "/case-studies/maggie-hunt"
+      },
+      {
+        "id": "google",
+        "isActive": true,
+        "cardClasses": "card--case-study",
+        "cardImgURL": "/assets/img/case-studies/google/google-card-03.jpg",
+        "cardImgAlt": "",
+        "cardTitle": "GOOGLE",
+        "cardSubTitle": "Cyberfraud website prototypes",
+        "filterKey": "websites",
+        "cardURL": "/case-studies/google-cyberfraud"
+      },
+      {
+        "id": "raps",
+        "isActive": true,
+        "cardClasses": "card--case-study",
+        "cardImgURL": "/assets/img/case-studies/raps/raps-card.jpg",
+        "cardImgAlt": "",
+        "cardTitle": "RAPS MANAGEMENT",
+        "cardSubTitle": "Celebrity management website",
+        "filterKey": "websites",
+        "cardURL": "/case-studies/raps-management"
+      },
+      {
+        "id": "jpmorgan",
+        "isActive": true,
+        "cardClasses": "card--case-study",
+        "cardImgURL": "/assets/img/case-studies/jpmorgan/jpm-card.jpg",
+        "cardImgAlt": "",
+        "cardTitle": "JP MORGAN",
+        "cardSubTitle": "Anti money laundering system integration",
+        "filterKey": "compliance",
+        "cardURL": "/case-studies/jp-morgan"
+      },
+      {
+        "id": "deutschebank",
+        "isActive": true,
+        "cardClasses": "card--case-study",
+        "cardImgURL": "/assets/img/case-studies/deutsche-bank/deutsche-card.jpg",
+        "cardImgAlt": "",
+        "cardTitle": "DEUTSCHE BANK",
+        "cardSubTitle": "Outsource systems migration",
+        "filterKey": "system-migration",
+        "cardURL": "/case-studies/deutsche-bank"
+      },
+      {
+        "id": "abnamro",
+        "isActive": true,
+        "cardClasses": "card--case-study",
+        "cardImgURL": "/assets/img/case-studies/abn-amro/abn-card.jpg",
+        "cardImgAlt": "",
+        "cardTitle": "ABN AMRO",
+        "cardSubTitle": "Regulatory Process Automation",
+        "filterKey": "compliance",
+        "cardURL": "/case-studies/abn-amro"
+      },
+      {
+        "id": "conran",
+        "isActive": true,
+        "cardClasses": "card--case-study",
+        "cardImgURL": "/assets/img/case-studies/conran-design/conran-design-maps-card.jpg",
+        "cardImgAlt": "",
+        "cardTitle": "CONRAN DESIGN GROUP",
+        "cardSubTitle": "Interactive maps",
+        "filterKey": "websites",
+        "cardURL": "/case-studies/conran-design"
+      },
+      {
+        "id": "concise",
+        "isActive": true,
+        "cardClasses": "card--case-study",
+        "cardImgURL": "/assets/img/case-studies/concise-media-group/cushman-card.jpg",
+        "cardImgAlt": "",
+        "cardTitle": "CONCISE MEDIA GROUP",
+        "cardSubTitle": "iPad apps for events",
+        "filterKey": "ipad-apps",
+        "cardURL": "/case-studies/concise-media"
+      }
+    ]
+  },
+  "contactInfo": {
+    "emailAddresses": [
+      {
+        "emailAddress": "hello@jaysonhunter.com"
+      }
+    ],
+    "officeLocations": {
+      "london": {
+        "officeName": "London",
+        "mapURL": "https://www.google.co.uk/maps/place/3+Lion+Gate+Mews,+London+SW18+5EN/@51.4506938,-0.2001077,17z/data=!3m1!4b1!4m5!3m4!1s0x48760f5d41d98809:0xc3b69483b3121fc5!8m2!3d51.4506938!4d-0.197919",
+        "address": "3 Lion Gate Mews<br>Merton Road, London<br>SW18 5EN",
+        "contactTel": "+44(0) 7958 914 614",
+        "contactTelMobileVer": "+447958914614"
+      }
+    }
+  },
+  "socialMediaLinks" : [
+    {
+      "isActive": false,
+      "linkURL" : "http://facebook.com",
+      "linkIcon": "icon-facebook"
+    },
+    {
+      "isActive": false,
+      "linkURL" : "http://twitter.com",
+      "linkIcon": "icon-twitter"
+    },
+    {
+      "isActive": false,
+      "linkURL" : "http://instagram.com",
+      "linkIcon": "icon-instagram"
+    },
+    {
+      "isActive": true,
+      "linkURL" : "http://linkedin.com",
+      "linkIcon": "icon-linkedin"
+    }
+  ],
+  "clientLogos": [
+    {
+      "logoURL": "/assets/img/client-logos/light/adidas.png"
+    },
+    {
+      "logoURL": "/assets/img/client-logos/light/ahold-delhaize.png"
+    },
+    {
+      "logoURL": "/assets/img/client-logos/light/astra-zeneca.png"
+    },
+    {
+      "logoURL": "/assets/img/client-logos/light/baml.png"
+    },
+    {
+      "logoURL": "/assets/img/client-logos/light/barclays.png"
+    },
+    {
+      "logoURL": "/assets/img/client-logos/light/bnp-paribas.png"
+    },
+    {
+      "logoURL": "/assets/img/client-logos/light/bp.png"
+    },
+    {
+      "logoURL": "/assets/img/client-logos/light/bt.png"
+    },
+    {
+      "logoURL": "/assets/img/client-logos/light/cushman.png"
+    },
+    {
+      "logoURL": "/assets/img/client-logos/light/deloitte.png"
+    },
+    {
+      "logoURL": "/assets/img/client-logos/light/goldman-sachs.png"
+    },
+    {
+      "logoURL": "/assets/img/client-logos/light/google.png"
+    },
+    {
+      "logoURL": "/assets/img/client-logos/light/havas.png"
+    },
+    {
+      "logoURL": "/assets/img/client-logos/light/hsbc.png"
+    },
+    {
+      "logoURL": "/assets/img/client-logos/light/ibm.png"
+    },
+    {
+      "logoURL": "/assets/img/client-logos/light/marks-spencer.png"
+    },
+    {
+      "logoURL": "/assets/img/client-logos/light/nomura.png"
+    },
+    {
+      "logoURL": "/assets/img/client-logos/light/novartis.png"
+    },
+    {
+      "logoURL": "/assets/img/client-logos/light/qatar.png"
+    },
+    {
+      "logoURL": "/assets/img/client-logos/light/rolls-royce-2.png"
+    },
+    {
+      "logoURL": "/assets/img/client-logos/light/standard-chartered.png"
+    },
+    {
+      "logoURL": "/assets/img/client-logos/light/skoda.png"
+    },
+    {
+      "logoURL": "/assets/img/client-logos/light/ubs.png"
+    }
+  ],
+
+  "mapAPI": {
+    "key": "AIzaSyCDnKqJmZaEFpL1KfY1Uhuo1sbJR1Rk5YI"
+  },
+  "gaCode": "UA-102254714-1"
+}

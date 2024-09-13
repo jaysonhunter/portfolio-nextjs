@@ -1,0 +1,36 @@
+/** Data View
+
+    UL element to display data items such as recipes and products
+
+    <ul class="DataView">
+        <li class="data-item">
+
+    </ul>
+
+*/
+
+.data-view {
+  @include clearfix();
+
+  position        : relative;
+  list-style-type : none;
+  margin          : 0;
+  padding         : 0;
+
+  .data-item {
+    display        : inline-block;
+    @include make-xs-column(12, 0);
+    @include clearfix();
+  }
+
+
+  &.two-col {
+    color: #123456;
+
+    .data-item {
+      @include make-md-column(6, 0);
+
+    }
+  }
+
+}

@@ -1,0 +1,31 @@
+{
+  "title" : "Vivid Lime Case Study",
+  "description": "Case Study: Discover how Jayson Hunter helped Vivid Lime update their sister agency's existing website.",
+  "ogImage" : "assets/img/case-studies/vivid-lime/vivid-lime-og.jpg",
+  "ogImageWidth": 1200,
+  "ogImageHeight": 630,
+  "twitterImage" : "assets/img/case-studies/vivid-lime/vivid-lime-twitter-image.jpg",
+  "hero": {
+    "title": "Vivid Lime",
+    "subText": "Existing website enhancements",
+    "bgImageURL" : "../assets/img/case-studies/vivid-lime/vivid-lime-case-study-hero-large.jpg",
+    "bgSmallImageURL" : "../assets/img/case-studies/vivid-lime/vivid-lime-case-study-hero-small.jpg",
+    "bgMediumImageURL" : "../assets/img/case-studies/vivid-lime/vivid-lime-case-study-hero-small.jpg",
+    "bgPosition": "center top",
+    "extraClasses": "",
+    "overlay": true
+  },
+  "caseStudyDetails": {
+    "clientName": "Vivid Lime",
+    "projectName": "Additional website functionality",
+    "projectDescription": "Vivid Lime, a digital marketing agency needed to make updates to their sister agency's existing website.",
+    "category": "Wearable Tech",
+    "duration": "6 Months",
+    "linkedServicePageURLs": [
+      {
+        "serviceName": "Development",
+        "linkedURL": "service-development.html"
+      }
+    ]
+  }
+}

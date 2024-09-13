@@ -1,0 +1,13 @@
+.inner-wrapper {
+  position: relative;
+  overflow: auto;
+  padding-top: $header-mobile-height;
+
+  @media (min-width: $screen-md) {
+        padding-top: $header-desktop-height;
+    }
+
+  .has-nav-open & {
+
+  }
+}

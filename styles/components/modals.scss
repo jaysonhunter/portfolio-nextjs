@@ -1,0 +1,53 @@
+// Modals
+
+html.is-modal-open {
+  overflow : hidden;
+}
+
+.modal {
+  border-radius: none;
+
+  // position                   : fixed;
+  // top                        : 0;
+  // left                       : 0;
+  // width                      : 100vw;
+  // height                     : 100vh;
+  // z-index                    : 5000;
+  // overflow-x                 : hidden;
+  // overflow-y                 : auto;
+  // -webkit-overflow-scrolling : touch;
+  //
+
+  .modal-header {
+    padding: 30px 33px 0;
+  }
+
+  .modal-body {
+    padding: 0 30px 33px;
+  }
+
+  .modal-header,
+  .modal-footer {
+    border-bottom: none;
+  }
+
+  .modal-content {
+    border-radius: 0;
+  }
+
+  .modal-title {
+    margin      : 0 0 16px;
+  }
+
+  .modal-close {
+    position      : absolute;
+    right         : 33px;
+    top           : 30px;
+    width         : 37px;
+    height        : 37px;
+    background    : $color-black url("/assets/img/icons/navigation-cross.png") no-repeat center center;
+    border-radius : 50%;
+    z-index       : 1;
+  }
+
+}

@@ -1,0 +1,13 @@
+.u-full-width {
+  width: 100%;
+}
+
+.u-max-content-width-narrow {
+    @include center-block();
+    max-width: $max-content-width-narrow;
+}
+
+.u-max-content-width-wide {
+    @include center-block();
+    max-width: $max-content-width-wide;
+}

@@ -1,0 +1,224 @@
+/**
+ * Small margin spacings
+ */
+@mixin small-margin-top {
+  margin-top: $spacing-small-mobile;
+
+  @media (min-width: $screen-md) {
+      margin-top: $spacing-small-desktop;
+  }
+}
+
+@mixin small-margin-bottom {
+  margin-bottom: $spacing-small-mobile;
+
+  @media (min-width: $screen-md) {
+      margin-bottom: $spacing-small-desktop;
+  }
+}
+
+@mixin small-margin {
+  margin: $spacing-small-mobile 0;
+
+  @media (min-width: $screen-md) {
+      margin: $spacing-small-desktop 0;
+  }
+}
+
+
+/**
+ * Small padding spacings
+ */
+@mixin small-padding-top {
+  padding-top: $spacing-small-mobile;
+
+  @media (min-width: $screen-md) {
+      padding-top: $spacing-small-desktop;
+  }
+}
+
+@mixin small-padding-bottom {
+  padding-bottom: $spacing-small-mobile;
+
+  @media (min-width: $screen-md) {
+      padding-bottom: $spacing-small-desktop;
+  }
+}
+
+@mixin small-padding {
+  padding: $spacing-small-mobile 0;
+
+  @media (min-width: $screen-md) {
+      padding: $spacing-small-desktop 0;
+  }
+}
+
+
+
+/**
+ * Medium margin spacings
+ */
+@mixin medium-margin-top {
+  margin-top: $spacing-medium-mobile;
+
+  @media (min-width: $screen-md) {
+      margin-top: $spacing-medium-desktop;
+  }
+}
+
+@mixin medium-margin-bottom {
+  margin-bottom: $spacing-medium-mobile;
+
+  @media (min-width: $screen-md) {
+      margin-bottom: $spacing-medium-desktop;
+  }
+}
+
+@mixin medium-margin {
+  margin: $spacing-medium-mobile 0;
+
+  @media (min-width: $screen-md) {
+      margin: $spacing-medium-desktop 0;
+  }
+}
+
+
+/**
+ * Medium padding spacings
+ */
+@mixin medium-padding-top {
+  padding-top: $spacing-medium-mobile;
+
+  @media (min-width: $screen-md) {
+      padding-top: $spacing-medium-desktop;
+  }
+}
+
+@mixin medium-padding-bottom {
+  padding-bottom: $spacing-medium-mobile;
+
+  @media (min-width: $screen-md) {
+      padding-bottom: $spacing-medium-desktop;
+  }
+}
+
+@mixin medium-padding {
+  padding: $spacing-medium-mobile 0;
+
+  @media (min-width: $screen-md) {
+      padding: $spacing-medium-desktop 0;
+  }
+}
+
+
+
+/**
+ * Large margin spacings
+ */
+@mixin large-margin-top {
+  margin-top: $spacing-large-mobile;
+
+  @media (min-width: $screen-md) {
+      margin-top: $spacing-large-desktop;
+  }
+}
+
+@mixin large-margin-bottom {
+  margin-bottom: $spacing-large-mobile;
+
+  @media (min-width: $screen-md) {
+      margin-bottom: $spacing-large-desktop;
+  }
+}
+
+@mixin large-margin {
+  margin: $spacing-large-mobile 0;
+
+  @media (min-width: $screen-md) {
+      margin: $spacing-large-desktop 0;
+  }
+}
+
+
+/**
+ * Large padding spacings
+ */
+@mixin large-padding-top {
+  padding-top: $spacing-large-mobile;
+
+  @media (min-width: $screen-md) {
+      padding-top: $spacing-large-desktop;
+  }
+}
+
+@mixin large-padding-bottom {
+  padding-bottom: $spacing-large-mobile;
+
+  @media (min-width: $screen-md) {
+      padding-bottom: $spacing-large-desktop;
+  }
+}
+
+@mixin large-padding {
+  padding: $spacing-large-mobile 0;
+
+  @media (min-width: $screen-md) {
+      padding: $spacing-large-desktop 0;
+  }
+}
+
+
+/**
+ * XLarge margin spacings
+ */
+@mixin xlarge-margin-top {
+  margin-top: $spacing-xlarge-mobile;
+
+  @media (min-width: $screen-md) {
+      margin-top: $spacing-xlarge-desktop;
+  }
+}
+
+@mixin xlarge-margin-bottom {
+  margin-bottom: $spacing-xlarge-mobile;
+
+  @media (min-width: $screen-md) {
+      margin-bottom: $spacing-xlarge-desktop;
+  }
+}
+
+@mixin xlarge-margin {
+  margin: $spacing-xlarge-mobile 0;
+
+  @media (min-width: $screen-md) {
+      margin: $spacing-xlarge-desktop 0;
+  }
+}
+
+
+/**
+ * XLarge padding spacings
+ */
+@mixin xlarge-padding-top {
+  padding-top: $spacing-xlarge-mobile;
+
+  @media (min-width: $screen-md) {
+      padding-top: $spacing-xlarge-desktop;
+  }
+}
+
+@mixin xlarge-padding-bottom {
+  padding-bottom: $spacing-xlarge-mobile;
+
+  @media (min-width: $screen-md) {
+      padding-bottom: $spacing-xlarge-desktop;
+  }
+}
+
+@mixin xlarge-padding {
+  padding: $spacing-xlarge-mobile 0;
+
+  @media (min-width: $screen-md) {
+      padding: $spacing-xlarge-desktop 0;
+  }
+}

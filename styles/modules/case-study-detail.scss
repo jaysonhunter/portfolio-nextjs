@@ -1,0 +1,35 @@
+.case-study-detail {
+  position: relative;
+  background-color: $color-black-16;
+
+  .meta-details {
+    color: $color-white;
+
+    @include small-padding();
+    @include uppercase();
+    @include font-small();
+
+    border-top: 1px solid $color-grey-70;
+
+  }
+
+  .project-details {
+    color: $color-white;
+    padding: 60px 0;
+
+    .client-name {
+      @include uppercase();
+      @include font-large();
+      padding-bottom: 20px;
+    }
+
+    .project-name {
+      @include small-padding-bottom();
+
+    }
+
+    .project-description {
+
+    }
+  }
+}

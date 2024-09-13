@@ -1,0 +1,27 @@
+{
+  "title" : "JP Morgan Case Study",
+  "description": "Case Study: Discover how Jayson Hunter helped JP Morgan abide by Financial Regulations concerning Anti Money Laundering risk management.",
+  "ogImage" : "./assets/img/case-studies/jpmorgan/jpmorgan-og.jpg",
+  "ogImageWidth": 1200,
+  "ogImageHeight": 630,
+  "twitterImage" : "./assets/img/case-studies/jpmorgan/jpmorgan-twitter-image.jpg",
+  "hero": {
+    "title": "JP MORGAN",
+    "subText": "Anti money laundering system integration",
+    "bgImageURL" : "../assets/img/case-studies/jpmorgan/jpm-case-study-hero-large.jpg",
+    "bgSmallImageURL" : "../assets/img/case-studies/jpmorgan/jpm-case-study-hero-small.jpg",
+    "extraClasses": "",
+    "overlay": true
+  },
+  "caseStudyDetails": {
+    "clientName": "JP Morgan",
+    "projectName": "Anti money laundering system integration",
+    "projectDescription": "JP Morgan, an American financial services company headquartered in New York City had to abide by Financial Regulations concerning Anti Money Laundering risk management. They wanted to implement an “early detection system” to help them meet these needs.",
+    "linkedServicePageURLs": [
+      {
+        "serviceName": "development",
+        "linkedURL": "service-experiments.html"
+      }
+    ]
+  }
+}

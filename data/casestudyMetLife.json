@@ -1,0 +1,28 @@
+{
+  "title" : "Met Life Case Study",
+  "siteURL": "www.jaysonhunter.com",
+  "authorName": "Jayson Hunter - Digital Consultant",
+  "description": "Met Life Case Study description",
+  "ogImage" : "./assets/img/case-studies/abnamro/abnamro-og-image.jpg",
+  "ogImageWidth": 667,
+  "ogImageHeight": 667,
+  "twitterImage" : "./assets/img/case-studies/abnamro/abnamro-twitter-image.jpg",
+  "hero": {
+    "bgImageURL" : "../assets/img/case-studies/abnamro/abnamro-case-study-hero-large.jpg",
+    "bgSmallImageURL" : "../assets/img/case-studies/abnamro/abnamro-case-study-hero-small.jpg",
+    "bgPosition": ""
+  },
+  "caseStudyDetails": {
+    "clientName": "Met Life",
+    "projectName": "Process Automation",
+    "projectDescription": "Met Life is Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim inventore, libero voluptatem, quasi magni nemo accusantium. Eligendi nihil maxime corrupti et, iure, rerum officia repellat beatae eveniet unde in illo!",
+    "category": "Process Automation",
+    "duration": "",
+    "linkedServicePageURLs": [
+      {
+        "serviceName": "development",
+        "linkedURL": "service-development.html"
+      }
+    ]
+  }
+}

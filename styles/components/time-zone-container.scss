@@ -1,0 +1,43 @@
+.time-zones {
+  width: 100%;
+
+  @media (min-width: $screen-md) {
+    display: table;
+  }
+}
+
+.time-zone-container {
+  position: relative;
+  padding-bottom: 300px;
+
+  @media (min-width: $screen-sm) {
+    padding-bottom: 400px;
+  }
+
+
+  @media (min-width: $screen-md) {
+    display: table-cell;
+    padding-bottom: 300px;
+  }
+
+  @media (min-width: $screen-lg) {
+    padding-bottom: 500px;
+  }
+
+  .bg-image {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+  }
+
+  .location-details {
+    position: relative;
+    max-width: 240px;
+    margin: 0 auto;
+  }
+
+}

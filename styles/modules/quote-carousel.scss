@@ -1,0 +1,54 @@
+$quote-card-width-mobile: 310px;
+$quote-card-width-desktop: 650px;
+
+$quote-card-height-mobile: 310px;
+$quote-card-height-desktop: 650px;
+
+
+.quote-carousel-container {
+
+  .slick-prev,
+  .slick-next {
+    display: none;
+    width: 12px;
+    height: 22px;
+    background-size: 12px 22px;
+    padding: 20px;
+
+    @media (min-width: $screen-md) {
+      display: block;
+    }
+
+     &:before {
+      content: ''; // Remove default slick arrow content
+    }
+  }
+
+  .slick-prev {
+    background: url("/assets/img/icons/icon-chevron-black-left.svg") no-repeat center;
+    left: -20px;
+  }
+
+  .slick-next {
+    background: url("/assets/img/icons/icon-chevron-black-right.svg") no-repeat center;
+    right: -20px;
+  }
+
+  .slick-disabled {
+      opacity: .25;
+    }
+
+}
+
+.quote-carousel-wrapper,
+.slide {
+
+  .quote-card {
+    margin: 0 auto;
+
+    @media (min-width: $screen-md) {
+      max-width: $quote-card-width-desktop;
+    }
+  }
+
+}

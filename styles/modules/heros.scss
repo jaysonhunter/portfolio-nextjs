@@ -1,0 +1,147 @@
+.hero {
+    position: relative;
+    transition: height .6s;
+    color: $color-white;
+    height: 300px;
+
+    @media (min-width: $screen-md) {
+        height: 400px;
+    }
+
+    @media (min-width: $screen-lg) {
+        height: 600px;
+    }
+
+    .overlay {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0,0,0, .2);
+    }
+
+    .bg-image {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .text-block {
+        @include center-vertical();
+
+        position: relative;
+        text-align: center;
+        z-index: 1;
+        margin: 0 auto;
+        padding: 0 $container-padding-mobile;
+        max-width: $max-content-width-narrow;
+    }
+
+    .title {
+        @include uppercase();
+
+        margin-bottom: 20px;
+    }
+
+
+    .sub-text {
+        @include h1-size();
+    }
+
+    .scroll-down {
+        position: absolute;
+        bottom: 40px;
+        left: 50%;
+        width: 50px;
+        height: 50px;
+        background: url("/assets/img/icons/icon-chevron-down-32-white.svg") no-repeat center;
+        background-size: 32px;
+
+        // Offset the margin instead of translateX(-50%) which is ignored by the scrollDown animation
+        margin-left: -16px;
+        cursor: pointer;
+
+        animation: scrollDown 2s infinite;
+
+    }
+
+
+    &.hero-home{
+
+        .text-block {
+            display: none;
+            position: absolute;
+            top: 30%;
+            transform: translateY(0);
+            margin: 0;
+            left: initial;
+            right: 0;
+
+            @include for-tablet-portrait-up {
+                max-width: 400px;
+                display: block;
+            }
+
+
+            @include for-tablet-landscape-up {
+                top: 40%;
+                right: 10%;
+                max-width: $max-content-width-narrow;
+            }
+
+            @include for-desktop-up {
+                //right: 0;
+            }
+
+            @include for-big-desktop-up {
+                right: 20%;
+            }
+        }
+
+        .title {
+
+        }
+
+        .sub-text {
+            @include h2-size();
+
+            @media (min-width: $screen-lg) {
+                @include h1-size();
+            }
+
+        }
+    }
+
+
+    &.hero--case-study {
+        height: 300px;
+        color: $color-white;
+
+        @media (min-width: $screen-md) {
+            height: 400px;
+        }
+
+        @media (min-width: $screen-lg) {
+            height: 600px;
+        }
+
+        .bg-image {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .sub-text {
+            text-transform: uppercase;
+        }
+    }
+}

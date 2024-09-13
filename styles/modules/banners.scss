@@ -1,0 +1,38 @@
+.banner {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    transition: height .6s;
+
+    height: 400px;
+
+    @media (min-width: $screen-lg) {
+        height: 600px;
+    }
+
+    .bg-image {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-repeat: no-repeat;
+    }
+
+    &__text-block {
+        position: relative;
+        text-align: center;
+        z-index: 1;
+        padding: 0 $container-padding-mobile;
+        max-width: $max-content-width-narrow;
+        margin: 0 auto;
+
+        @media (min-width: $screen-md) {
+            max-width: $max-content-width-wide;
+            padding: 0 $container-padding-desktop;
+        }
+    }
+}

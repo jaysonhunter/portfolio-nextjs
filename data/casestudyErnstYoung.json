@@ -1,0 +1,31 @@
+{
+  "title" : "Ernst & Young Case Study",
+  "siteURL": "www.jaysonhunter.com",
+  "authorName": "Jayson Hunter - Digital Consultant",
+  "description": "Ernst & Young Case Study description",
+  "ogImage" : "./assets/img/case-studies/ernst-young/ernst-young-og-image.jpg",
+  "ogImageWidth": 667,
+  "ogImageHeight": 667,
+  "twitterImage" : "./assets/img/case-studies/ernst-young/ernst-young-twitter-image.jpg",
+  "hero": {
+    "title": "Ernst & Young",
+    "subText": "iPad app for events",
+    "bgImageURL" : "../assets/img/case-studies/ernst-young/ey-case-study-hero-large.jpg",
+    "bgSmallImageURL" : "../assets/img/case-studies/ernst-young/ey-case-study-hero-small.jpg",
+    "bgMediumImageURL" : "../assets/img/case-studies/ernst-young/ey-case-study-hero-large.jpg",
+    "extraClasses": ""
+  },
+  "caseStudyDetails": {
+    "clientName": "Ernst & Young",
+    "projectName": "Process Automation",
+    "projectDescription": "Ernst & Young is Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam praesentium voluptate, cupiditate ea delectus eum esse voluptatum impedit repudiandae, vero doloremque repellat quidem omnis? Delectus ullam ipsa, eligendi recusandae nisi.",
+    "category": "Process Automation",
+    "duration": "",
+    "linkedServicePageURLs": [
+      {
+        "serviceName": "development",
+        "linkedURL": "service-development.html"
+      }
+    ]
+  }
+}

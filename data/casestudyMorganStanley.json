@@ -1,0 +1,31 @@
+{
+  "title" : "Morgan Stanleys Case Study",
+  "siteURL": "www.jaysonhunter.com",
+  "authorName": "Jayson Hunter - Digital Consultant",
+  "description": "Morgan Stanley Case Study description",
+  "ogImage" : "./assets/img/case-studies/morgan-stanley/morgan-stanley-og-image.jpg",
+  "ogImageWidth": 667,
+  "ogImageHeight": 667,
+  "twitterImage" : "./assets/img/case-studies/morgan-stanley/morgan-stanley-twitter-image.jpg",
+  "hero": {
+    "title": "Morgan Stanley",
+    "subText": "iPad app for events",
+    "bgImageURL" : "../assets/img/case-studies/morgan-stanley/morgan-stanley-case-study-hero-large.jpg",
+    "bgSmallImageURL" : "../assets/img/case-studies/morgan-stanley/morgan-stanley-case-study-hero-small.jpg",
+    "bgMediumImageURL" : "../assets/img/case-studies/morgan-stanley/morgan-stanley-case-study-hero-large.jpg",
+    "extraClasses": ""
+  },
+  "caseStudyDetails": {
+    "clientName": "Morgan Stanley",
+    "projectName": "iPad app for events",
+    "projectDescription": "Morgan Stanley is Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae veritatis deserunt iure quia architecto tempora deleniti dignissimos incidunt magni ea, consequuntur dolores, accusamus aliquam a eaque, asperiores autem quae. Nostrum.",
+    "category": "Process Automation",
+    "duration": "",
+    "linkedServicePageURLs": [
+      {
+        "serviceName": "development",
+        "linkedURL": "service-development.html"
+      }
+    ]
+  }
+}

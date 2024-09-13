@@ -1,0 +1,57 @@
+.quote-card {
+  position: relative;
+  padding: 20px;
+
+  .quote-card-content {
+    position: relative;
+    box-shadow: 0px 0px 30px 5px rgba(0,0,0, .1);
+    background-color: $color-white;
+    text-align: center;
+
+    padding: 20px;
+
+    @media (min-width: $screen-md) {
+        padding: 80px;
+    }
+
+  }
+
+  .quote-symbol {
+    width: 51px;
+    height: 40px;
+    margin: 0 auto 30px;
+    background-size: contain;
+
+    &.open-quote {
+      line-height: 1;
+      background: url('/assets/img/icons/icon-quote-mark.svg') no-repeat center;
+    }
+
+  }
+
+  .quote-text {
+    position: relative;
+    display: inline-block;
+    @include quote();
+  }
+
+  .separator {
+    width: 60px;
+    margin: 0 auto;
+    @include small-padding-top();
+    height: 1px;
+    border-bottom: 1px solid $color-black;
+  }
+
+  .quote-author {
+    font-weight: $font-weight-bold;
+    @include small-padding-top();
+  }
+
+  .quote-author__title {
+    @include uppercase();
+    @include font-small();
+    @include small-padding-bottom()
+
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "title": "About Jayson Hunter",
+  "authorName": "Jayson Hunter - Digital Consultant",
+  "description": "I favour quality over quantity, have a great appreciation for bespoke craftsmanship, and enjoy starting businesses. I’m an avid fan of the Rolling Stones having been to many of their concerts, including blues legends such as BB King and Buddy Guy. Skiing and scuba diving are my sports of choice, and I’d rather have a 1964 Ferrari 250 GTO over any new, hi-tech car of today. I’m a man of few words but a straight talker, and I’ll happily tell you what you need to know, not what you want to hear.",
+  "ogImage" : "assets/img/heros/home-hero-small.jpg",
+  "ogImageWidth": 1200,
+  "ogImageHeight": 667,
+  "twitterImage" : "./assets/img/about-twitter-image.jpg",
+  "page": {
+    "title": "About me",
+    "subText": "My passions and personality"
+  },
+  "hero": {
+    "title": "About me",
+    "subText": "My passions and personality",
+    "bgColorClass": "",
+    "textColorClass": "",
+    "bgImageURL" : "./assets/img/heros/hero-background-about-us.jpg",
+    "bgSize": "",
+    "bgPosition": ""
+  },
+  "aboutUsGallery": {
+    "galleryImages": [
+      {
+        "imgURL" : "../assets/img/about/about us - culture 1.jpg",
+        "imageWidthClass": "width-1"
+      },
+      {
+        "imgURL" : "../assets/img/about/about us - culture 2.jpg",
+        "imageWidthClass": "width-2"
+      },
+      {
+        "imgURL" : "../assets/img/about/about us - culture 3.jpg",
+        "imageWidthClass": "width-3"
+      },
+      {
+        "imgURL" : "../assets/img/about/about us - culture 4.jpg",
+        "imageWidthClass": "width-4"
+      },
+      {
+        "imgURL" : "../assets/img/about/about us - culture 5.jpg",
+        "imageWidthClass": "width-4"
+      },
+      {
+        "imgURL" : "../assets/img/about/about us - culture 6.jpg",
+        "imageWidthClass": "width-3"
+      },
+      {
+        "imgURL" : "../assets/img/about/about us - culture 7.jpg",
+        "imageWidthClass": "width-2"
+      },
+      {
+        "imgURL" : "../assets/img/about/about us - culture 8.jpg",
+        "imageWidthClass": "width-1"
+      }
+    ]
+  }
+}

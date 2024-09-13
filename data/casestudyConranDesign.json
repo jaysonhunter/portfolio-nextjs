@@ -1,0 +1,30 @@
+{
+  "title" : "Conran Design Case Study",
+  "description": "Case Study: Discover how Jayson Hunter helped Conran Design create 2 interactive, JavaScript map modules for an existing client website.",
+  "ogImage" : "./assets/img/case-studies/conran-design/conran-design-og.jpg",
+  "ogImageWidth": 1200,
+  "ogImageHeight": 630,
+  "twitterImage" : "./assets/img/case-studies/conran-design/conran-design-twitter-image.jpg",
+  "hero": {
+    "title": "Conran Design",
+    "subText": "Interactive Maps",
+    "bgImageURL" : "../assets/img/case-studies/conran-design/conran-design-maps-case-study-hero-large.jpg",
+    "bgSmallImageURL" : "../assets/img/case-studies/conran-design/conran-design-maps-case-study-hero-small.jpg",
+    "bgMediumImageURL" : "../assets/img/case-studies/conran-design/conran-design-maps-case-study-hero-large.jpg",
+    "extraClasses": "",
+    "overlay": true
+  },
+  "caseStudyDetails": {
+    "clientName": "Conran Design",
+    "projectName": "Interactive Maps",
+    "projectDescription": "Conran Design Group needed to deliver 2 interactive, JavaScript map modules for an existing client website.",
+    "category": "Process Automation",
+    "duration": "",
+    "linkedServicePageURLs": [
+      {
+        "serviceName": "development",
+        "linkedURL": "service-development.html"
+      }
+    ]
+  }
+}

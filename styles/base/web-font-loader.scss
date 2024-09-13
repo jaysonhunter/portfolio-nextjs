@@ -1,0 +1,13 @@
+// Web Font Loader. Prevent Flash Of Unstyled Content (FOUC)
+
+.wf-loading * {
+    opacity: 0;
+}
+
+.wf-active *,
+.wf-inactive * {
+    -webkit-transition: opacity 500ms ease-out;
+    -moz-transition: opacity 500ms ease-out;
+    -o-transition: opacity 500ms ease-out;
+    transition: opacity 500ms ease-out;
+}

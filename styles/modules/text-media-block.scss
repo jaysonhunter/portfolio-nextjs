@@ -1,0 +1,16 @@
+.text-media-block {
+    position: relative;
+    text-align: center;
+
+    .text-block {
+      @include h2-size();
+      text-align: center;
+      padding: 0 $container-padding-mobile;
+      max-width: $max-content-width-narrow;
+      margin: 0 auto 100px;
+    }
+
+    .media-block {
+
+    }
+}

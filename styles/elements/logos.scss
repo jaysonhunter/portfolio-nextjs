@@ -1,0 +1,19 @@
+.logo {
+  display: inline-block;
+  max-width: 100%;
+  width: 180px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px;
+  background-image: url('/assets/img/jayson-hunter-logo-black.svg');
+
+  @media (min-width: $screen-md) {
+      width: 208px;
+  }
+
+
+  &--light {
+    background-image: url('/assets/img/jayson-hunter-logo-white.svg');
+  }
+}

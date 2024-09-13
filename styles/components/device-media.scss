@@ -1,0 +1,38 @@
+$iphone-width: 343px; // The exact base iphone image dimension
+$iphone-height: 708px; // The exact base iphone image dimension
+$iphone-portrait-offset-y: 84px;
+$iphone-portrait-offset-x: 22px;
+
+
+.device-media {
+  position: relative;
+
+
+  // Default portrait
+  &.device-iphone {
+    max-width: $iphone-width;
+    max-height: $iphone-height;
+    margin: 0 auto;
+
+    @media (min-width: $screen-md) {
+      // float: right;
+    }
+
+    .media-block {
+      position: absolute;
+      top: $iphone-portrait-offset-y;
+      left: $iphone-portrait-offset-x;
+      right: $iphone-portrait-offset-x;
+    }
+
+    .device-base-image {
+      position: relative;
+      // width: $iphone-width;
+      height: $iphone-height;
+      background: url('/assets/img/iphone-base-white.png') no-repeat;
+      background-size: contain;
+    }
+
+  }
+
+}

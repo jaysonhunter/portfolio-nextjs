@@ -1,0 +1,30 @@
+{
+  "title" : "Cushman Wakefield Case Study",
+  "authorName": "Jayson Hunter - Digital Consultant",
+  "description": "Cushman Wakefield Case Study description",
+  "ogImage" : "./assets/img/case-studies/cushman-wakefield/cushman-wakefield-og-image.jpg",
+  "ogImageWidth": 667,
+  "ogImageHeight": 667,
+  "twitterImage" : "./assets/img/case-studies/cushman-wakefield/cushman-wakefield-twitter-image.jpg",
+  "hero": {
+    "title": "Cushman Wakefield",
+    "subText": "iPad app for events",
+    "bgImageURL" : "../assets/img/case-studies/cushman-wakefield/cushman-case-study-hero-large.jpg",
+    "bgSmallImageURL" : "../assets/img/case-studies/cushman-wakefield/cushman-case-study-hero-small.jpg",
+    "bgMediumImageURL" : "../assets/img/case-studies/cushman-wakefield/cushman-case-study-hero-large.jpg",
+    "extraClasses": ""
+  },
+  "caseStudyDetails": {
+    "clientName": "Cushman Wakefield",
+    "projectName": "iPad app for events",
+    "projectDescription": "Cushman & Wakefield, a commercial real estate company held a conference in Cannes, and wanted an interactive app to replace the paper handouts normally associated with events.",
+    "category": "iPad app",
+    "duration": "",
+    "linkedServicePageURLs": [
+      {
+        "serviceName": "development",
+        "linkedURL": "service-development.html"
+      }
+    ]
+  }
+}

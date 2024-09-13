@@ -1,0 +1,96 @@
+body::after, body::before {
+  /* these are the 2 half blocks which cover the content once the animation is triggered */
+  height: 50vh;
+  width: 100%;
+  position: fixed;
+  left: 0;
+}
+
+body::before {
+  top: 0;
+  transition: translateY(-100%);
+}
+
+body::after {
+  bottom: 0;
+  transition: translateY(100%);
+}
+
+body.page-is-changing::after, body.page-is-changing::before {
+  transition: translateY(0);
+}
+
+
+.cd-cover-layer {
+  /* layer that covers the content when the animation is triggered */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  bottom: auto;
+  right: auto;
+  transform: translateX(-50%) translateY(-50%);
+
+  height: calc(100% - 20px);
+  width: calc(100% - 20px);
+  opacity: 0;
+  visibility: hidden;
+  background-color: $color-black-16;
+  transition: opacity 0.4s 0.4s, visibility 0s 0.8s;
+
+
+  .page-is-changing & {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s 0s, visibility 0s 0s;
+  }
+}
+
+.cd-loading-bar {
+  /* this is the loding bar - visible while switching from one page to the following one */
+  position: fixed;
+  z-index: 2;
+  left: 50%;
+    top: 50%;
+  height: 2px;
+  width: 90%;
+  background-color: #fff;
+  visibility: hidden;
+  transition: visibility 0s 0.4s, transform 0.4s 0s ease-in;
+
+  /* Force Hardware Acceleration */
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+
+  transform: translateX(-50%) translateY(-50%);
+
+  &::before {
+    /* this is the progress bar inside the loading bar */
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+
+    /* Force Hardware Acceleration */
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: translateZ(0);
+
+    transition: scaleX(0);
+    transform:  transform-origin(left center);
+  }
+
+  .page-is-changing & {
+    visibility: visible;
+    transition: transform(translateX(-50%) translateY(-50%) scaleX(.3));
+    transition: visibility 0s 0.3s, transform 0.4s 0.4s;
+
+    &::before {
+      transition: transform(scaleX(1));
+      transition: transform 0.8s 0.8s ease-in;
+    }
+  }
+}

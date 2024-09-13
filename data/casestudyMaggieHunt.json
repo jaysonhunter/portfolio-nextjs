@@ -1,0 +1,31 @@
+{
+  "title" : "Maggie Hunt Case Study",
+  "siteURL": "www.jaysonhunter.com",
+  "authorName": "Jayson Hunter - Digital Consultant",
+  "description": "Maggie Hunt Case Study description",
+  "ogImage" : "./assets/img/case-studies/maggie-hunt/maggie-hunt-og-image.jpg",
+  "ogImageWidth": 667,
+  "ogImageHeight": 667,
+  "twitterImage" : "./assets/img/case-studies/maggie-hunt/maggie-hunt-twitter-image.jpg",
+  "hero": {
+    "title": "Maggie Hunt",
+    "subText": "Website",
+    "bgImageURL" : "../assets/img/case-studies/maggie-hunt/maggie-hunt-case-study-hero-large.jpg",
+    "bgSmallImageURL" : "../assets/img/case-studies/maggie-hunt/maggie-hunt-case-study-hero-small.jpg",
+    "bgMediumImageURL" : "../assets/img/case-studies/maggie-hunt/maggie-hunt-case-study-hero-large.jpg",
+    "extraClasses": ""
+  },
+  "caseStudyDetails": {
+    "clientName": "Maggie Hunt",
+    "projectName": "Process Automation",
+    "projectDescription": "Maggie Hunt is Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam eaque quod fugiat illo et beatae quibusdam, eius debitis nesciunt optio perferendis ducimus! Perspiciatis, animi assumenda. Eum mollitia voluptates deserunt quam.",
+    "category": "Process Automation",
+    "duration": "",
+    "linkedServicePageURLs": [
+      {
+        "serviceName": "development",
+        "linkedURL": "service-development.html"
+      }
+    ]
+  }
+}

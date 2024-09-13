@@ -1,0 +1,68 @@
+{
+  "title" : "Jayson Hunter - Digital Consultant",
+  "authorName": "Jayson Hunter - Digital Consultant",
+  "description": "Jayson Hunter, an IT consultant with a passion for business. Whether you're looking to improve your current website or completely start from scratch, it's worth having a quick conversation with me to see what I could offer you.",
+  "ogImage" : "assets/img/heros/home-og.jpg",
+  "ogImageWidth": 1200,
+  "ogImageHeight": 630,
+  "twitterImage" : "/assets/img/home-hero-small.jpg",
+  "hero": {
+    "subText": "Helping you deliver large scale web applications on time.",
+    "bgColorClass": "",
+    "textColorClass": "u-color-white",
+    "bgSmallImageURL" : "/assets/img/heros/home-hero-small.jpg",
+    "bgMediumImageURL" : "/assets/img/heros/home-hero-medium.jpg",
+    "bgImageURL" : "/assets/img/heros/home-hero-large.jpg",
+    "bgSize": "",
+    "bgPosition": "top left",
+    "extraClasses": "hero-home",
+    "scrollDown": true,
+    "resizeHero": true
+  },
+  "caseStudies": {
+    "gridTypeClass": "grid-2-up",
+    "ids": ["ahold", "chillisauce", "skoda", "google"],
+    "dataContent": [
+    {
+      "isActive": true,
+        "cardClasses": "card--case-study",
+        "cardImgURL": "/assets/img/case-studies/ahold-delhaize/ahold-card-01.jpg",
+        "cardImgAlt": "",
+        "cardTitle": "AHOLD DELHAIZE",
+        "cardSubTitle": "Whitelabel e-commerce platform",
+        "filterKey": "websites",
+        "cardURL": "case-studies/ahold-delhaize"
+      },
+      {
+        "isActive": false,
+        "cardClasses": "card--case-study",
+        "cardImgURL": "/assets/img/case-studies/chillisauce/chillisauce-card-01.jpg",
+        "cardImgAlt": "",
+        "cardTitle": "CHILLISAUCE",
+        "cardSubTitle": "Bespoke event booking platform",
+        "filterKey": "websites",
+        "cardURL": "/case-studies/chillisauce"
+      },
+      {
+        "isActive": true,
+        "cardClasses": "card--case-study",
+        "cardImgURL": "/assets/img/case-studies/skoda/skoda-card.jpg",
+        "cardImgAlt": "",
+        "cardTitle": "SKODA",
+        "cardSubTitle": "Goal-oriented mobile website",
+        "filterKey": "websites",
+        "cardURL": "case-studies/skoda"
+      },
+      {
+        "isActive": false,
+        "cardClasses": "card--case-study",
+        "cardImgURL": "/assets/img/case-studies/google/google-card-03.jpg",
+        "cardImgAlt": "",
+        "cardTitle": "GOOGLE",
+        "cardSubTitle": "Updated cyberfraud page prototypes",
+        "filterKey": "websites",
+        "cardURL": "case-studies/google-cyberfraud.html"
+      }
+    ]
+  }
+}

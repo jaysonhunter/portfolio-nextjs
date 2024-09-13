@@ -1,0 +1,31 @@
+{
+  "title" : "Havas Case Study",
+  "siteURL": "www.jaysonhunter.com",
+  "authorName": "Jayson Hunter - Digital Consultant",
+  "description": "Havas Case Study description",
+  "ogImage" : "./assets/img/case-studies/havas/havas-og-image.jpg",
+  "ogImageWidth": 667,
+  "ogImageHeight": 667,
+  "twitterImage" : "./assets/img/case-studies/havas/havas-twitter-image.jpg",
+  "hero": {
+    "title": "HAVAS",
+    "subText": "iPad app for events",
+    "bgImageURL" : "../assets/img/case-studies/havas/havas-case-study-hero-large.jpg",
+    "bgSmallImageURL" : "../assets/img/case-studies/havas/havas-case-study-hero-small.jpg",
+    "bgMediumImageURL" : "../assets/img/case-studies/havas/havas-case-study-hero-large.jpg",
+    "extraClasses": ""
+  },
+  "caseStudyDetails": {
+    "clientName": "Havas",
+    "projectName": "Process Automation",
+    "projectDescription": "Havas is Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe accusamus officiis iusto error repellat, sequi porro reiciendis debitis necessitatibus quae animi consectetur, molestias corporis, magnam totam, aspernatur labore perspiciatis dicta.",
+    "category": "Process Automation",
+    "duration": "",
+    "linkedServicePageURLs": [
+      {
+        "serviceName": "development",
+        "linkedURL": "service-development.html"
+      }
+    ]
+  }
+}

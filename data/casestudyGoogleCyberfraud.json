@@ -1,0 +1,30 @@
+{
+  "title" : "Google Cyberfraud Case Study",
+  "description": "Case Study: Discover how Jayson Hunter helped create a working prototype for Google's 'Ad Traffic Quality Resource Center' website.",
+  "ogImage" : "./assets/img/case-studies/google/google-og.jpg",
+  "ogImageWidth": 1200,
+  "ogImageHeight": 630,
+  "twitterImage" : "./assets/img/case-studies/google/google-twitter-image.jpg",
+  "hero": {
+    "title": "Google",
+    "subText": "Cyberfraud website prototypes",
+    "bgImageURL" : "../assets/img/case-studies/google/google-case-study-hero-03-large.jpg",
+    "bgSmallImageURL" : "../assets/img/case-studies/google/google-case-study-hero-03-small.jpg",
+    "bgMediumImageURL" : "../assets/img/case-studies/google/google-case-study-hero-03-large.jpg",
+    "extraClasses": "",
+    "overlay": true
+  },
+  "caseStudyDetails": {
+    "clientName": "Google",
+    "projectName": "Cyberfraud website prototypes",
+    "projectDescription": "Beyond, a design and technology ideas company based in London Bridge, had a requirement from one of their clients in San Francisco, to produce new designs for their 'Ad Traffic Quality Resource Center' website. That client was non other than Google.",
+    "category": "Wearable Tech",
+    "duration": "6 Months",
+    "linkedServicePageURLs": [
+      {
+        "serviceName": "Development",
+        "linkedURL": "service-development.html"
+      }
+    ]
+  }
+}

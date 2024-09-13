@@ -1,0 +1,64 @@
+.global-locations {
+  position: relative;
+
+  height: 400px;
+  width: 100%;
+  background-color: $color-blue-42;
+  background-image: linear-gradient(180deg, $color-blue-42, $color-blue-49);
+
+  @media (min-width: $screen-lg) {
+    height: 800px;
+  }
+
+  .stars {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url('/assets/img/planet-stars.png') no-repeat top center;
+    background-size: cover;
+  }
+
+  .planet {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-height: 100%;
+    width: 100%;
+
+    max-width: 320px;
+
+    @media (min-width: $screen-md) {
+
+    }
+
+    @media (min-width: $screen-lg) {
+      max-width: 750px;
+    }
+  }
+
+  .text-block {
+    position: relative;
+    text-align: center;
+
+    @media (min-width: $screen-lg) {
+      @include center-vertical();
+      text-align: left;
+    }
+  }
+
+  .text{
+    @include h2-size();
+    color: $color-white;
+    max-width: $max-content-width-narrow;
+    margin: 0 auto;
+
+    @media (min-width: $screen-lg) {
+      max-width: 540px;
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+}

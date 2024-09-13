@@ -1,0 +1,21 @@
+/*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+// Core variables and mixins
+@import "variables";
+@import "mixins";
+
+// Reset and dependencies
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/normalize";
+// @import "bootstrap/print";
+// @import "bootstrap/glyphicons";
+
+// Core CSS
+@import "scaffolding";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/type";
+// @import "bootstrap/code";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/grid";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/buttons";

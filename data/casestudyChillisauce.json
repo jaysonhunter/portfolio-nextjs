@@ -1,0 +1,32 @@
+{
+  "title" : "Chillisauce Case Study",
+  "description": "Case Study: Discover how Jayson Hunter helped Chillisauce replace their website with a new, mobile-first platform.",
+  "ogImage" : "./assets/img/chillisauce/chillisauce-og.jpg",
+  "ogImageWidth": 1200,
+  "ogImageHeight": 630,
+  "twitterImage" : "./assets/img/chillisauce/chillisauce-twitter-image.jpg",
+  "hero": {
+    "title": "Chillisauce",
+    "subText": "Bespoke event booking platform",
+    "bgImageURL" : "../assets/img/case-studies/chillisauce/chillisauce-case-study-hero-large.jpg",
+    "bgSmallImageURL" : "../assets/img/case-studies/chillisauce/chillisauce-case-study-hero-small.jpg",
+    "bgMediumImageURL" : "../assets/img/case-studies/chillisauce/chillisauce-case-study-hero-large.jpg",
+    "extraClasses": "",
+    "overlay": true
+  },
+  "caseStudyDetails": {
+    "clientName": "Chillisauce",
+    "projectName": "Events booking platform",
+    "projectDescription": "Chillisauce is one of the UK’s largest and fastest growing event agencies, delivering thousands of memorable activities and experiences for groups and companies across Europe every year. They wanted to replace their outdated, and error-prone website with a new, mobile-first platform.",
+    "category": "",
+    "duration": "",
+    "linkedServicePageURLs": [
+      {
+        "serviceName": "development",
+        "linkedURL": "service-development.html"
+      }
+    ],
+    "techStack": "HTML5, CSS3, Sass, Foundation, Susy, Javascript, jQuery",
+    "tools": "NPM, Bower, Grunt, PatternLab"
+  }
+}

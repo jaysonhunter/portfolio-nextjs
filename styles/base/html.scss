@@ -1,0 +1,167 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+  height          : 100%;
+  width           : 100%;
+  font-family: $default-fonts;
+  font-weight: $font-weight-light;
+  color: $color-body;
+  overflow: scroll;
+}
+
+body {
+  display: block;
+  z-index: 1;
+  position: relative;
+  margin: 0 auto;
+  font-size: 1em;
+  scroll-behavior: smooth;
+}
+
+html, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, li, form, legend, label, table, header, footer, nav, section, figure {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  @include h1-size();
+  font-weight: $font-weight-bold;
+}
+
+
+h2 {
+  @include h2-size();
+  @include small-margin-bottom();
+  font-weight: $font-weight-bold;
+}
+
+h3 {
+  @include h3-size();
+  @include small-margin-bottom();
+  font-weight: $font-weight-bold;
+}
+
+p {
+  padding-bottom: 20px;
+  line-height: 22px;
+
+  @media (min-width: $screen-md) {
+    font-size: 1.125em; //18px;
+    line-height: 26px;
+  }
+}
+
+a {
+  text-decoration: none;
+
+  &:link,
+  &:visited,
+  &:focus {
+    color: inherit;
+  }
+
+  &:hover {
+    text-decoration: none;
+    color: $color-link;
+  }
+
+
+  // @media (min-width: $screen-lg) {
+  //   &:hover {
+  //     color: $color-link;
+  //   }
+  // }
+
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+ul {
+  list-style-position: inside;
+}
+
+em {
+  text-decoration: underline;
+  font-style: normal;
+  color: $color-link;
+}
+
+video {
+  width: 100%    !important;
+  height: auto   !important;
+}
+
+// Hide the play button on iOS devices
+*::-webkit-media-controls-panel {
+  display: none!important;
+  -webkit-appearance: none;
+}
+
+/* Old shadow dom for play button */
+
+*::--webkit-media-controls-play-button {
+  display: none!important;
+  -webkit-appearance: none;
+}
+
+/* New shadow dom for play button */
+
+/* This one works */
+
+*::-webkit-media-controls-start-playback-button {
+  display: none!important;
+  -webkit-appearance: none;
+}
+
+
+blockquote {
+  border-left: 0;
+
+  .quote-text {
+    position: relative;
+    display: inline;
+    padding: 20px;
+
+    font-family: "lora";
+    @include quote-large();
+
+    &:before {
+      position: absolute;
+      left: 0;
+      content: "\201C";
+    }
+
+    &:after {
+      position: absolute;
+      right: 0;
+      content: "\201D";
+    }
+  }
+
+  .separator {
+    width: 60px;
+    margin: 0 auto;
+  }
+
+  .quote-author {
+    font-size: 0.8125em; //13px;
+  }
+
+}

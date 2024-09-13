@@ -1,0 +1,32 @@
+.nav-toggle {
+    @include center-vertical();
+    position  : absolute;
+    right: 0;
+}
+
+.nav-toggle__link {
+    display: inline-block;
+    padding: 20px 0 20px 20px;
+    line-height: 1;
+}
+
+.nav-toggle__btn {
+    display: inline-block;
+    background-image: url('/assets/img/icons/navigation-hamburger.png');
+    background-size: 32px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: $color-link;
+    border-radius: 50%;
+    width: 37px;
+    height: 37px;
+
+    @media (min-width: $screen-md) {
+        width: 43px;
+        height: 43px;
+    }
+
+    .has-nav-open & {
+        background-image: url('/assets/img/icons/navigation-cross.png');
+    }
+}

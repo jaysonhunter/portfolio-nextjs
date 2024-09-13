@@ -1,0 +1,30 @@
+{
+  "title" : "Concise Media Group Case Study",
+  "description": "Case Study: Discover how Jayson Hunter helped Concise Media create an iPad app for a client hosting an event.",
+  "ogImage" : "./assets/img/case-studies/concise-media-group/concise-media-group-og.jpg",
+  "ogImageWidth": 1200,
+  "ogImageHeight": 630,
+  "twitterImage" : "./assets/img/case-studies/concise-media-group/concise-media-group-twitter-image.jpg",
+  "hero": {
+    "title": "Concise Media Group",
+    "subText": "iPad app for events",
+    "bgImageURL" : "../assets/img/case-studies/concise-media-group/cushman-case-study-hero-large.jpg",
+    "bgSmallImageURL" : "../assets/img/case-studies/concise-media-group/cushman-case-study-hero-small.jpg",
+    "bgMediumImageURL" : "../assets/img/case-studies/concise-media-group/cushman-case-study-hero-large.jpg",
+    "extraClasses": "",
+    "overlay": true
+  },
+  "caseStudyDetails": {
+    "clientName": "Concise Media Group",
+    "projectName": "iPad app for events",
+    "projectDescription": "Concise Media Group, an innovative agency in the events space, needed an app developed for one of their clients.",
+    "category": "iPad app",
+    "duration": "",
+    "linkedServicePageURLs": [
+      {
+        "serviceName": "development",
+        "linkedURL": "service-development.html"
+      }
+    ]
+  }
+}

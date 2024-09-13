@@ -1,0 +1,17 @@
+.page-title-block {
+  @include medium-padding-top();
+  @include medium-padding-bottom();
+
+  text-align: center;
+  background-color: $color-black-10;
+  color: $color-white;
+
+  .title {
+    @include uppercase();
+    @include font-large();
+  }
+
+  .sub-text {
+    @include h1-size();
+  }
+}

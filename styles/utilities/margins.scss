@@ -1,0 +1,38 @@
+// Margin helper classes, using the Emmet naming convention
+
+
+@each $space in $spacings {
+    .u-m-#{$space} {
+        margin: #{$space}px;
+    }
+
+    .u-m-t-#{$space} {
+        margin-top: #{$space}px;
+    }
+
+    .u-m-b-#{$space} {
+        margin-bottom: #{$space}px;
+    }
+
+    .u-m-tb-#{$space} {
+        margin-top: #{$space}px;
+        margin-bottom: #{$space}px;
+    }
+
+    .u-m-l-#{$space} {
+        margin-left: #{$space}px;
+    }
+
+    .u-m-r-#{$space} {
+        margin-right: #{$space}px;
+    }
+
+    .u-m-lr-#{$space} {
+        margin-left: #{$space}px;
+        margin-right: #{$space}px;
+    }
+}
+
+
+// Center horizontally
+.u-m-center { margin: 0 auto; }

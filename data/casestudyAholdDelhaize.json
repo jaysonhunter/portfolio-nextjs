@@ -1,0 +1,34 @@
+{
+  "title" : "Ahold Delhaize Case Study",
+  "description": "Case Study: Discover how Jayson Hunter helped Ahold Delhaize replace their many shopping websites with a completely new and bespoke platform.",
+  "ogImage" : "assets/img/case-studies/ahold-delhaize/delhaize-og.jpg",
+  "ogImageWidth": 1200,
+  "ogImageHeight": 630,
+  "twitterImage" : "./assets/img/case-studies/ahold-delhaize/ahold-delhaize-twitter-image.jpg",
+  "hero": {
+    "title": "Ahold Delhaize",
+    "subText": "Whitelabel e-commerce platform",
+    "bgImageURL" : "../assets/img/case-studies/ahold-delhaize/ahold-case-study-hero-large.jpg",
+    "bgSmallImageURL" : "../assets/img/case-studies/ahold-delhaize/ahold-case-study-hero-small.jpg",
+    "bgMediumImageURL" : "../assets/img/case-studies/ahold-delhaize/ahold-case-study-hero-large.jpg",
+    "extraClasses": "",
+    "overlay": true
+  },
+  "caseStudyDetails": {
+    "clientName": "Ahold Delhaize",
+    "projectName": "e-Commerce Platform",
+    "projectDescription": "Ahold Delhaize is one of the world’s largest food retail groups. A leader in supermarkets and e-commerce, with 21 local brands serving more than 50 million shoppers each week in 11 countries. They wanted to replace their many shopping websites with a completely new and bespoke platform.",
+    "category": "e-Commerce",
+    "duration": "6 Months",
+    "linkedServicePageURLs": [
+      {
+        "serviceName": "consultancy",
+        "linkedURL": "service-consultancy.html"
+      },
+      {
+        "serviceName": "development",
+        "linkedURL": "service-development.html"
+      }
+    ]
+  }
+}
