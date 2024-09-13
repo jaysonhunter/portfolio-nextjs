@@ -27,7 +27,7 @@
     "@storybook/react": "^8.3.0",
     "@storybook/test": "^8.3.0",
     "bootstrap": "^5.3.3",
-    "../../node_modules/bootstrap-sass": "^3.4.3",
+    "bootstrap-sass": "^3.4.3",
     "eslint": "^8",
     "eslint-config-next": "14.2.8",
     "eslint-plugin-storybook": "^0.8.0",
